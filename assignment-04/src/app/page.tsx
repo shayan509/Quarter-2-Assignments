@@ -42,7 +42,7 @@ export default function Home() {
 
       {/* Navbar for Desktops */}
       <nav className="DesktopNav hidden md:flex items-center justify-center gap-4 md:h-[70px]">
-        <h1 className="text-black text-[32px] leading-[38.4px] font-bold">
+        <h1 className="text-black text-[32px] leading-[38.4px] font-bold" style={{fontFamily : "Satoshi-Bold"}}>
           SHOP.CO
         </h1>
         <div className="Navigationlinks flex gap-4 text-gray-600 text-base leading-[16.9px]">
